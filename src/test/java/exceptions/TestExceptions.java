@@ -40,8 +40,7 @@ public class TestExceptions {
         try {
             throwSomeCheckedExceptions( 4 );
 
-        } catch
-            e.printStackTrace();( MyCheckedException e ) {
+        } catch( MyCheckedException e ) {
             System.out.println("e.getMessage() = " + e.getMessage());
         } catch (IOException e) {
             System.out.println("e.getMessage() = " + e.getMessage());
